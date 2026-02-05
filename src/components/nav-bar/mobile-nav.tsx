@@ -4,7 +4,6 @@ import React from "react";
 import { Menu, Bell, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navigation, user, userNavigation } from "./constants";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import {
