@@ -27,3 +27,22 @@ npm install
 
 npm run dev
 ```
+
+## Branching Strategy
+
+We use [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) for managing code changes.
+
+- **main**: Stable, production-ready code.
+- **develop**: Latest development changes.
+- **feature/**: New features (branch off develop).
+- **release/**: Release preparation (branch off develop).
+- **hotfix/**: Urgent fixes (branch off main).
+
+### Workflow
+
+1. Create a feature branch from develop:  
+   `git checkout develop && git checkout -b feature/my-feature`
+2. Merge feature into develop when done.
+3. Create release branch from develop for production releases.
+4. Merge release into main and develop.
+5. Create hotfix branch from main for urgent fixes.

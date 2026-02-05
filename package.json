@@ -1,6 +1,6 @@
 {
   "name": "my-shop",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,11 +15,11 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint",
-      "prettier --check"
+      "eslint src/**/*.{ts,tsx} --fix",
+      "prettier --write"
     ],
     "*.{json,yml,yaml,md}": [
-      "prettier --check"
+      "prettier --write"
     ]
   },
   "dependencies": {
