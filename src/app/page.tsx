@@ -1,6 +1,6 @@
 import { NavBar } from "@/components/nav-bar";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="min-h-full">
       <header className="relative bg-white shadow-sm">
