@@ -14,7 +14,7 @@ import {
 import { cn } from "@/lib/utils";
 import { navigation, user, userNavigation } from "./constants";
 import Image from "next/image";
-import { Button } from "../ui/button";
+import { Button } from "../ui/button/button";
 import Link from "next/link";
 
 export const MobileNav = () => {
