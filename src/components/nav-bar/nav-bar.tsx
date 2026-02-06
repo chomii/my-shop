@@ -14,10 +14,10 @@ export const NavBar = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <div className="size-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">A</span>
+            <span className="text-primary-foreground font-bold text-sm">W</span>
           </div>
           <span className="font-semibold text-lg hidden sm:inline-block">
-            Acme Inc
+            Wolf Shop
           </span>
         </Link>
 
